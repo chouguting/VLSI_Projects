@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\VLSI_Projects\Lab1Test\simulation\qsim
+vcomparator_4_bits
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+IJdZVY?l8W24YX5cmm:b6Z2
+V:]:[JPd3AkLiNZ782j?LZ0
+Z2 !s105 LAB1_sv_unit
+S1
+Z3 dC:\Users\choug\VLSI_Projects\Lab1Test\simulation\qsim
+Z4 w1668338413
+Z5 8C:/Users/choug/VLSI_Projects/Lab1Test/LAB1.sv
+Z6 FC:/Users/choug/VLSI_Projects/Lab1Test/LAB1.sv
+L0 128
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s108 1668338510.839000
+Z9 !s107 C:/Users/choug/VLSI_Projects/Lab1Test/LAB1.sv|
+Z10 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/VLSI_Projects/Lab1Test|C:/Users/choug/VLSI_Projects/Lab1Test/LAB1.sv|
+Z11 o-sv -work work -O0
+Z12 !s92 -sv -work work +incdir+C:/Users/choug/VLSI_Projects/Lab1Test -O0
+!i10b 1
+!s100 i<X21:2gF9VAaoc0meRhk0
+!s85 0
+!s101 -O0
+vLAB1
+R1
+ImNnja`QOM9H0[M2G8kM2>2
+VdF;iOeikDS4Ng7Pf06Zlg1
+R2
+S1
+R3
+R4
+R5
+R6
+L0 1
+R7
+r1
+31
+R8
+R9
+R10
+R11
+R12
+n@l@a@b1
+!i10b 1
+!s100 e3iES26H`TbFiEkM1VHbC3
+!s85 0
+!s101 -O0
+vPATTERN
+R1
+!i10b 1
+!s100 WWmeL?b6UH:2BWIKA@;b]1
+IK[V=M>Q3:XWzNT;Z=i>Q20
+V9KPfV@QaoI9D;0:8ogDUD1
+!s105 PATTERN_sv_unit
+S1
+R3
+w1664518420
+8C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv
+FC:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv
+L0 4
+R7
+r1
+!s85 0
+31
+!s108 1668338511.059000
+!s107 C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/VLSI_Projects/Lab1Test|C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv|
+!s101 -O0
+R11
+R12
+n@p@a@t@t@e@r@n
+vTESTBED
+R1
+IEg;PEj;1MkoZ4Ta16>C0L1
+Va^Nd@jDXDSLiKoR5S::G91
+!s105 TESTBED_sv_unit
+S1
+R3
+w1664852240
+8C:/Users/choug/VLSI_Projects/Lab1Test/TESTBED.sv
+FC:/Users/choug/VLSI_Projects/Lab1Test/TESTBED.sv
+L0 6
+R7
+r1
+31
+!s108 1668338510.972000
+!s107 C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv|C:/Users/choug/VLSI_Projects/Lab1Test/TESTBED.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/VLSI_Projects/Lab1Test|C:/Users/choug/VLSI_Projects/Lab1Test/TESTBED.sv|
+R11
+R12
+n@t@e@s@t@b@e@d
+!i10b 1
+!s100 mTLD?mU?^aCFLPGP7mjL82
+!s85 0
+!s101 -O0

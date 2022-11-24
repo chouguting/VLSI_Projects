@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\VLSI_Projects\Lab1Test\simulation\qsim
+vLab1Test
+Z1 I]R92OA3J>EPgN0LQX1`<F3
+Z2 V9:5_gjmNcZMNSQ0NU4=]>2
+Z3 dC:\Users\choug\VLSI_Projects\Lab1Test\simulation\qsim
+Z4 w1667927992
+Z5 8Lab1Test.vo
+Z6 FLab1Test.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Lab1Test.vo|
+Z9 o-work work -O0
+Z10 n@lab1@test
+!i10b 1
+Z11 !s100 2l6Ke6]Y[_C=THkkfQ9k[2
+!s85 0
+Z12 !s108 1667927992.938000
+Z13 !s107 Lab1Test.vo|
+!s101 -O0
+vLab1Test_vlg_check_tst
+!i10b 1
+Z14 !s100 jM`0Y31>k[e?OB1QKKl^U1
+Z15 INHFEXcUbJ0PQ:@D]d<<_G2
+Z16 Vd:feh6S7Pn[G]zGWSC[TK2
+R3
+Z17 w1667927990
+Z18 8actual_test.vwf.vt
+Z19 Factual_test.vwf.vt
+L0 69
+R7
+r1
+!s85 0
+31
+Z20 !s108 1667927993.038000
+Z21 !s107 actual_test.vwf.vt|
+Z22 !s90 -work|work|actual_test.vwf.vt|
+!s101 -O0
+R9
+Z23 n@lab1@test_vlg_check_tst
+vLab1Test_vlg_sample_tst
+!i10b 1
+Z24 !s100 ^=R;88e50;hRSYHK`bS[;3
+Z25 IBoSW9FQ88<=<9:FSIEKjm2
+Z26 Vlz73IHFZkRN4AOmD0SaG[2
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@lab1@test_vlg_sample_tst
+vLab1Test_vlg_vec_tst
+!i10b 1
+Z28 !s100 bF>kMFa=KO2=;@gQ[N5F?2
+Z29 I0^6klf:=h?ViHSb]CdPPE1
+Z30 VD]DzEM4U_<PPYSR=P3onz2
+R3
+R17
+R18
+R19
+Z31 L0 325
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@lab1@test_vlg_vec_tst

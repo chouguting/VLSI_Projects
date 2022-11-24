@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\VLSI_Projects\counter_test\simulation\qsim
+vcounter
+Z1 Il3@H:zfMZi@ZkMQBkEkTL0
+Z2 Vffz]l0PcbIWW4>Q02zI^B3
+Z3 dC:\Users\choug\VLSI_Projects\counter_test\simulation\qsim
+Z4 w1669163773
+Z5 8counter.vo
+Z6 Fcounter.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|counter.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 6Ea6nRM@;FmB>U`lelF_j2
+!s85 0
+Z11 !s108 1669163774.569000
+Z12 !s107 counter.vo|
+!s101 -O0
+vcounter_vlg_check_tst
+!i10b 1
+Z13 !s100 WA<AQI_C<=ZW[4K533kBO0
+Z14 I8`z=2H6N8`B]glQU<673<2
+Z15 V@F5h9bkWgC`HREO>QgTHA0
+R3
+Z16 w1669163772
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z19 !s108 1669163774.642000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+vcounter_vlg_sample_tst
+!i10b 1
+Z22 !s100 21QK_];EBm1YT4T2Z32]]2
+Z23 IBiSRD?hn7D=YhTH>JCNo[3
+Z24 VFk7]6KR3fcPJ@a4RQEO7D1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vcounter_vlg_vec_tst
+!i10b 1
+!s100 4Y87nf;hWXANM7L;M_O1P0
+IUoUDc6z3=LJTW1]hdfjdz1
+Z25 V@9OC]=hZZe;4GTW8>c1jE1
+R3
+R16
+R17
+R18
+Z26 L0 227
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

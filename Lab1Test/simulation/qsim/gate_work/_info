@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\VLSI_Projects\Lab1Test\simulation\qsim
+vLAB1
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+IKKeEm_SHoG4PZGO4O6e8c3
+VdF;iOeikDS4Ng7Pf06Zlg1
+S1
+Z2 dC:\Users\choug\VLSI_Projects\Lab1Test\simulation\qsim
+w1668338445
+8Lab1Test.svo
+FLab1Test.svo
+L0 31
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-sv -work work -O0
+n@l@a@b1
+!i10b 1
+!s100 _ck6<z6kmAcGO<4i_hiMF1
+!s105 Lab1Test_svo_unit
+!s85 0
+!s108 1668524892.194000
+!s107 Lab1Test.svo|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+.|Lab1Test.svo|
+!s101 -O0
+!s92 -sv -work work +incdir+. -O0
+vPATTERN
+R1
+!i10b 1
+!s100 WWmeL?b6UH:2BWIKA@;b]1
+IK[V=M>Q3:XWzNT;Z=i>Q20
+V9KPfV@QaoI9D;0:8ogDUD1
+!s105 PATTERN_sv_unit
+S1
+R2
+w1664518420
+8C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv
+FC:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1668524892.491000
+!s107 C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/VLSI_Projects/Lab1Test|C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv|
+!s101 -O0
+R4
+Z5 !s92 -sv -work work +incdir+C:/Users/choug/VLSI_Projects/Lab1Test -O0
+n@p@a@t@t@e@r@n
+vTESTBED
+R1
+IEg;PEj;1MkoZ4Ta16>C0L1
+Va^Nd@jDXDSLiKoR5S::G91
+!s105 TESTBED_sv_unit
+S1
+R2
+w1664852240
+8C:/Users/choug/VLSI_Projects/Lab1Test/TESTBED.sv
+FC:/Users/choug/VLSI_Projects/Lab1Test/TESTBED.sv
+L0 6
+R3
+r1
+31
+!s108 1668524892.356000
+!s107 C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv|C:/Users/choug/VLSI_Projects/Lab1Test/TESTBED.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/choug/VLSI_Projects/Lab1Test|C:/Users/choug/VLSI_Projects/Lab1Test/TESTBED.sv|
+R4
+R5
+n@t@e@s@t@b@e@d
+!i10b 1
+!s100 mTLD?mU?^aCFLPGP7mjL82
+!s85 0
+!s101 -O0

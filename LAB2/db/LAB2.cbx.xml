@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="LAB2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CDC|AFIFO:in_A_FIFO|fifomem:fifomem_m0|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_jrc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CDC|AFIFO:in_T_FIFO|fifomem:fifomem_m0|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_jrc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CDC|AFIFO:in_account_FIFO|fifomem:fifomem_m0|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_jrc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CDC|lpm_mult:Mult0" CBX_FILE_NAME="mult_19t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

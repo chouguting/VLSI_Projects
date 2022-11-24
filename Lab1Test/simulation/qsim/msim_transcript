@@ -1,0 +1,4065 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Lab1Test_run_msim_gate_systemverilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+. {Lab1Test.svo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LAB1
+# 
+# Top level modules:
+# 	LAB1
+# 
+# vlog -sv -work work +incdir+C:/Users/choug/VLSI_Projects/Lab1Test {C:/Users/choug/VLSI_Projects/Lab1Test/TESTBED.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PATTERN
+# -- Compiling module TESTBED
+# 
+# Top level modules:
+# 	TESTBED
+# vlog -sv -work work +incdir+C:/Users/choug/VLSI_Projects/Lab1Test {C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PATTERN
+# 
+# Top level modules:
+# 	PATTERN
+# 
+# vsim -t 1ps -L altera_ver -L cycloneiii_ver -L gate_work -L work -voptargs="+acc"  TESTBED
+# vsim -L altera_ver -L cycloneiii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps TESTBED 
+# Loading sv_std.std
+# Loading work.TESTBED
+# Loading work.LAB1
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading work.PATTERN
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#              Pass Pattern NO.          0   
+# 
+# 
+#        
+#              Pass Pattern NO.          1   
+# 
+# 
+#        
+#              Pass Pattern NO.          2   
+# 
+# 
+#        
+#              Pass Pattern NO.          3   
+# 
+# 
+#        
+#              Pass Pattern NO.          4   
+# 
+# 
+#        
+#              Pass Pattern NO.          5   
+# 
+# 
+#        
+#              Pass Pattern NO.          6   
+# 
+# 
+#        
+#              Pass Pattern NO.          7   
+# 
+# 
+#        
+#              Pass Pattern NO.          8   
+# 
+# 
+#        
+#              Pass Pattern NO.          9   
+# 
+# 
+#        
+#              Pass Pattern NO.         10   
+# 
+# 
+#        
+#              Pass Pattern NO.         11   
+# 
+# 
+#        
+#              Pass Pattern NO.         12   
+# 
+# 
+#        
+#              Pass Pattern NO.         13   
+# 
+# 
+#        
+#              Pass Pattern NO.         14   
+# 
+# 
+#        
+#              Pass Pattern NO.         15   
+# 
+# 
+#        
+#              Pass Pattern NO.         16   
+# 
+# 
+#        
+#              Pass Pattern NO.         17   
+# 
+# 
+#        
+#              Pass Pattern NO.         18   
+# 
+# 
+#        
+#              Pass Pattern NO.         19   
+# 
+# 
+#        
+#              Pass Pattern NO.         20   
+# 
+# 
+#        
+#              Pass Pattern NO.         21   
+# 
+# 
+#        
+#              Pass Pattern NO.         22   
+# 
+# 
+#        
+#              Pass Pattern NO.         23   
+# 
+# 
+#        
+#              Pass Pattern NO.         24   
+# 
+# 
+#        
+#              Pass Pattern NO.         25   
+# 
+# 
+#        
+#              Pass Pattern NO.         26   
+# 
+# 
+#        
+#              Pass Pattern NO.         27   
+# 
+# 
+#        
+#              Pass Pattern NO.         28   
+# 
+# 
+#        
+#              Pass Pattern NO.         29   
+# 
+# 
+#        
+#              Pass Pattern NO.         30   
+# 
+# 
+#        
+#              Pass Pattern NO.         31   
+# 
+# 
+#        
+#              Pass Pattern NO.         32   
+# 
+# 
+#        
+#              Pass Pattern NO.         33   
+# 
+# 
+#        
+#              Pass Pattern NO.         34   
+# 
+# 
+#        
+#              Pass Pattern NO.         35   
+# 
+# 
+#        
+#              Pass Pattern NO.         36   
+# 
+# 
+#        
+#              Pass Pattern NO.         37   
+# 
+# 
+#        
+#              Pass Pattern NO.         38   
+# 
+# 
+#        
+#              Pass Pattern NO.         39   
+# 
+# 
+#        
+#              Pass Pattern NO.         40   
+# 
+# 
+#        
+#              Pass Pattern NO.         41   
+# 
+# 
+#        
+#              Pass Pattern NO.         42   
+# 
+# 
+#        
+#              Pass Pattern NO.         43   
+# 
+# 
+#        
+#              Pass Pattern NO.         44   
+# 
+# 
+#        
+#              Pass Pattern NO.         45   
+# 
+# 
+#        
+#              Pass Pattern NO.         46   
+# 
+# 
+#        
+#              Pass Pattern NO.         47   
+# 
+# 
+#        
+#              Pass Pattern NO.         48   
+# 
+# 
+#        
+#              Pass Pattern NO.         49   
+# 
+# 
+#        
+#              Pass Pattern NO.         50   
+# 
+# 
+#        
+#              Pass Pattern NO.         51   
+# 
+# 
+#        
+#              Pass Pattern NO.         52   
+# 
+# 
+#        
+#              Pass Pattern NO.         53   
+# 
+# 
+#        
+#              Pass Pattern NO.         54   
+# 
+# 
+#        
+#              Pass Pattern NO.         55   
+# 
+# 
+#        
+#              Pass Pattern NO.         56   
+# 
+# 
+#        
+#              Pass Pattern NO.         57   
+# 
+# 
+#        
+#              Pass Pattern NO.         58   
+# 
+# 
+#        
+#              Pass Pattern NO.         59   
+# 
+# 
+#        
+#              Pass Pattern NO.         60   
+# 
+# 
+#        
+#              Pass Pattern NO.         61   
+# 
+# 
+#        
+#              Pass Pattern NO.         62   
+# 
+# 
+#        
+#              Pass Pattern NO.         63   
+# 
+# 
+#        
+#              Pass Pattern NO.         64   
+# 
+# 
+#        
+#              Pass Pattern NO.         65   
+# 
+# 
+#        
+#              Pass Pattern NO.         66   
+# 
+# 
+#        
+#              Pass Pattern NO.         67   
+# 
+# 
+#        
+#              Pass Pattern NO.         68   
+# 
+# 
+#        
+#              Pass Pattern NO.         69   
+# 
+# 
+#        
+#              Pass Pattern NO.         70   
+# 
+# 
+#        
+#              Pass Pattern NO.         71   
+# 
+# 
+#        
+#              Pass Pattern NO.         72   
+# 
+# 
+#        
+#              Pass Pattern NO.         73   
+# 
+# 
+#        
+#              Pass Pattern NO.         74   
+# 
+# 
+#        
+#              Pass Pattern NO.         75   
+# 
+# 
+#        
+#              Pass Pattern NO.         76   
+# 
+# 
+#        
+#              Pass Pattern NO.         77   
+# 
+# 
+#        
+#              Pass Pattern NO.         78   
+# 
+# 
+#        
+#              Pass Pattern NO.         79   
+# 
+# 
+#        
+#              Pass Pattern NO.         80   
+# 
+# 
+#        
+#              Pass Pattern NO.         81   
+# 
+# 
+#        
+#              Pass Pattern NO.         82   
+# 
+# 
+#        
+#              Pass Pattern NO.         83   
+# 
+# 
+#        
+#              Pass Pattern NO.         84   
+# 
+# 
+#        
+#              Pass Pattern NO.         85   
+# 
+# 
+#        
+#              Pass Pattern NO.         86   
+# 
+# 
+#        
+#              Pass Pattern NO.         87   
+# 
+# 
+#        
+#              Pass Pattern NO.         88   
+# 
+# 
+#        
+#              Pass Pattern NO.         89   
+# 
+# 
+#        
+#              Pass Pattern NO.         90   
+# 
+# 
+#        
+#              Pass Pattern NO.         91   
+# 
+# 
+#        
+#              Pass Pattern NO.         92   
+# 
+# 
+#        
+#              Pass Pattern NO.         93   
+# 
+# 
+#        
+#              Pass Pattern NO.         94   
+# 
+# 
+#        
+#              Pass Pattern NO.         95   
+# 
+# 
+#        
+#              Pass Pattern NO.         96   
+# 
+# 
+#        
+#              Pass Pattern NO.         97   
+# 
+# 
+#        
+#              Pass Pattern NO.         98   
+# 
+# 
+#        
+#              Pass Pattern NO.         99   
+# 
+# 
+#        
+#              Pass Pattern NO.        100   
+# 
+# 
+#        
+#              Pass Pattern NO.        101   
+# 
+# 
+#        
+#              Pass Pattern NO.        102   
+# 
+# 
+#        
+#              Pass Pattern NO.        103   
+# 
+# 
+#        
+#              Pass Pattern NO.        104   
+# 
+# 
+#        
+#              Pass Pattern NO.        105   
+# 
+# 
+#        
+#              Pass Pattern NO.        106   
+# 
+# 
+#        
+#              Pass Pattern NO.        107   
+# 
+# 
+#        
+#              Pass Pattern NO.        108   
+# 
+# 
+#        
+#              Pass Pattern NO.        109   
+# 
+# 
+#        
+#              Pass Pattern NO.        110   
+# 
+# 
+#        
+#              Pass Pattern NO.        111   
+# 
+# 
+#        
+#              Pass Pattern NO.        112   
+# 
+# 
+#        
+#              Pass Pattern NO.        113   
+# 
+# 
+#        
+#              Pass Pattern NO.        114   
+# 
+# 
+#        
+#              Pass Pattern NO.        115   
+# 
+# 
+#        
+#              Pass Pattern NO.        116   
+# 
+# 
+#        
+#              Pass Pattern NO.        117   
+# 
+# 
+#        
+#              Pass Pattern NO.        118   
+# 
+# 
+#        
+#              Pass Pattern NO.        119   
+# 
+# 
+#        
+#              Pass Pattern NO.        120   
+# 
+# 
+#        
+#              Pass Pattern NO.        121   
+# 
+# 
+#        
+#              Pass Pattern NO.        122   
+# 
+# 
+#        
+#              Pass Pattern NO.        123   
+# 
+# 
+#        
+#              Pass Pattern NO.        124   
+# 
+# 
+#        
+#              Pass Pattern NO.        125   
+# 
+# 
+#        
+#              Pass Pattern NO.        126   
+# 
+# 
+#        
+#              Pass Pattern NO.        127   
+# 
+# 
+#        
+#              Pass Pattern NO.        128   
+# 
+# 
+#        
+#              Pass Pattern NO.        129   
+# 
+# 
+#        
+#              Pass Pattern NO.        130   
+# 
+# 
+#        
+#              Pass Pattern NO.        131   
+# 
+# 
+#        
+#              Pass Pattern NO.        132   
+# 
+# 
+#        
+#              Pass Pattern NO.        133   
+# 
+# 
+#        
+#              Pass Pattern NO.        134   
+# 
+# 
+#        
+#              Pass Pattern NO.        135   
+# 
+# 
+#        
+#              Pass Pattern NO.        136   
+# 
+# 
+#        
+#              Pass Pattern NO.        137   
+# 
+# 
+#        
+#              Pass Pattern NO.        138   
+# 
+# 
+#        
+#              Pass Pattern NO.        139   
+# 
+# 
+#        
+#              Pass Pattern NO.        140   
+# 
+# 
+#        
+#              Pass Pattern NO.        141   
+# 
+# 
+#        
+#              Pass Pattern NO.        142   
+# 
+# 
+#        
+#              Pass Pattern NO.        143   
+# 
+# 
+#        
+#              Pass Pattern NO.        144   
+# 
+# 
+#        
+#              Pass Pattern NO.        145   
+# 
+# 
+#        
+#              Pass Pattern NO.        146   
+# 
+# 
+#        
+#              Pass Pattern NO.        147   
+# 
+# 
+#        
+#              Pass Pattern NO.        148   
+# 
+# 
+#        
+#              Pass Pattern NO.        149   
+# 
+# 
+#        
+#              Pass Pattern NO.        150   
+# 
+# 
+#        
+#              Pass Pattern NO.        151   
+# 
+# 
+#        
+#              Pass Pattern NO.        152   
+# 
+# 
+#        
+#              Pass Pattern NO.        153   
+# 
+# 
+#        
+#              Pass Pattern NO.        154   
+# 
+# 
+#        
+#              Pass Pattern NO.        155   
+# 
+# 
+#        
+#              Pass Pattern NO.        156   
+# 
+# 
+#        
+#              Pass Pattern NO.        157   
+# 
+# 
+#        
+#              Pass Pattern NO.        158   
+# 
+# 
+#        
+#              Pass Pattern NO.        159   
+# 
+# 
+#        
+#              Pass Pattern NO.        160   
+# 
+# 
+#        
+#              Pass Pattern NO.        161   
+# 
+# 
+#        
+#              Pass Pattern NO.        162   
+# 
+# 
+#        
+#              Pass Pattern NO.        163   
+# 
+# 
+#        
+#              Pass Pattern NO.        164   
+# 
+# 
+#        
+#              Pass Pattern NO.        165   
+# 
+# 
+#        
+#              Pass Pattern NO.        166   
+# 
+# 
+#        
+#              Pass Pattern NO.        167   
+# 
+# 
+#        
+#              Pass Pattern NO.        168   
+# 
+# 
+#        
+#              Pass Pattern NO.        169   
+# 
+# 
+#        
+#              Pass Pattern NO.        170   
+# 
+# 
+#        
+#              Pass Pattern NO.        171   
+# 
+# 
+#        
+#              Pass Pattern NO.        172   
+# 
+# 
+#        
+#              Pass Pattern NO.        173   
+# 
+# 
+#        
+#              Pass Pattern NO.        174   
+# 
+# 
+#        
+#              Pass Pattern NO.        175   
+# 
+# 
+#        
+#              Pass Pattern NO.        176   
+# 
+# 
+#        
+#              Pass Pattern NO.        177   
+# 
+# 
+#        
+#              Pass Pattern NO.        178   
+# 
+# 
+#        
+#              Pass Pattern NO.        179   
+# 
+# 
+#        
+#              Pass Pattern NO.        180   
+# 
+# 
+#        
+#              Pass Pattern NO.        181   
+# 
+# 
+#        
+#              Pass Pattern NO.        182   
+# 
+# 
+#        
+#              Pass Pattern NO.        183   
+# 
+# 
+#        
+#              Pass Pattern NO.        184   
+# 
+# 
+#        
+#              Pass Pattern NO.        185   
+# 
+# 
+#        
+#              Pass Pattern NO.        186   
+# 
+# 
+#        
+#              Pass Pattern NO.        187   
+# 
+# 
+#        
+#              Pass Pattern NO.        188   
+# 
+# 
+#        
+#              Pass Pattern NO.        189   
+# 
+# 
+#        
+#              Pass Pattern NO.        190   
+# 
+# 
+#        
+#              Pass Pattern NO.        191   
+# 
+# 
+#        
+#              Pass Pattern NO.        192   
+# 
+# 
+#        
+#              Pass Pattern NO.        193   
+# 
+# 
+#        
+#              Pass Pattern NO.        194   
+# 
+# 
+#        
+#              Pass Pattern NO.        195   
+# 
+# 
+#        
+#              Pass Pattern NO.        196   
+# 
+# 
+#        
+#              Pass Pattern NO.        197   
+# 
+# 
+#        
+#              Pass Pattern NO.        198   
+# 
+# 
+#        
+#              Pass Pattern NO.        199   
+# 
+# 
+#        
+#              Pass Pattern NO.        200   
+# 
+# 
+#        
+#              Pass Pattern NO.        201   
+# 
+# 
+#        
+#              Pass Pattern NO.        202   
+# 
+# 
+#        
+#              Pass Pattern NO.        203   
+# 
+# 
+#        
+#              Pass Pattern NO.        204   
+# 
+# 
+#        
+#              Pass Pattern NO.        205   
+# 
+# 
+#        
+#              Pass Pattern NO.        206   
+# 
+# 
+#        
+#              Pass Pattern NO.        207   
+# 
+# 
+#        
+#              Pass Pattern NO.        208   
+# 
+# 
+#        
+#              Pass Pattern NO.        209   
+# 
+# 
+#        
+#              Pass Pattern NO.        210   
+# 
+# 
+#        
+#              Pass Pattern NO.        211   
+# 
+# 
+#        
+#              Pass Pattern NO.        212   
+# 
+# 
+#        
+#              Pass Pattern NO.        213   
+# 
+# 
+#        
+#              Pass Pattern NO.        214   
+# 
+# 
+#        
+#              Pass Pattern NO.        215   
+# 
+# 
+#        
+#              Pass Pattern NO.        216   
+# 
+# 
+#        
+#              Pass Pattern NO.        217   
+# 
+# 
+#        
+#              Pass Pattern NO.        218   
+# 
+# 
+#        
+#              Pass Pattern NO.        219   
+# 
+# 
+#        
+#              Pass Pattern NO.        220   
+# 
+# 
+#        
+#              Pass Pattern NO.        221   
+# 
+# 
+#        
+#              Pass Pattern NO.        222   
+# 
+# 
+#        
+#              Pass Pattern NO.        223   
+# 
+# 
+#        
+#              Pass Pattern NO.        224   
+# 
+# 
+#        
+#              Pass Pattern NO.        225   
+# 
+# 
+#        
+#              Pass Pattern NO.        226   
+# 
+# 
+#        
+#              Pass Pattern NO.        227   
+# 
+# 
+#        
+#              Pass Pattern NO.        228   
+# 
+# 
+#        
+#              Pass Pattern NO.        229   
+# 
+# 
+#        
+#              Pass Pattern NO.        230   
+# 
+# 
+#        
+#              Pass Pattern NO.        231   
+# 
+# 
+#        
+#              Pass Pattern NO.        232   
+# 
+# 
+#        
+#              Pass Pattern NO.        233   
+# 
+# 
+#        
+#              Pass Pattern NO.        234   
+# 
+# 
+#        
+#              Pass Pattern NO.        235   
+# 
+# 
+#        
+#              Pass Pattern NO.        236   
+# 
+# 
+#        
+#              Pass Pattern NO.        237   
+# 
+# 
+#        
+#              Pass Pattern NO.        238   
+# 
+# 
+#        
+#              Pass Pattern NO.        239   
+# 
+# 
+#        
+#              Pass Pattern NO.        240   
+# 
+# 
+#        
+#              Pass Pattern NO.        241   
+# 
+# 
+#        
+#              Pass Pattern NO.        242   
+# 
+# 
+#        
+#              Pass Pattern NO.        243   
+# 
+# 
+#        
+#              Pass Pattern NO.        244   
+# 
+# 
+#        
+#              Pass Pattern NO.        245   
+# 
+# 
+#        
+#              Pass Pattern NO.        246   
+# 
+# 
+#        
+#              Pass Pattern NO.        247   
+# 
+# 
+#        
+#              Pass Pattern NO.        248   
+# 
+# 
+#        
+#              Pass Pattern NO.        249   
+# 
+# 
+#        
+#              Pass Pattern NO.        250   
+# 
+# 
+#        
+#              Pass Pattern NO.        251   
+# 
+# 
+#        
+#              Pass Pattern NO.        252   
+# 
+# 
+#        
+#              Pass Pattern NO.        253   
+# 
+# 
+#        
+#              Pass Pattern NO.        254   
+# 
+# 
+#        
+#              Pass Pattern NO.        255   
+# 
+# 
+#        
+#              Pass Pattern NO.        256   
+# 
+# 
+#        
+#              Pass Pattern NO.        257   
+# 
+# 
+#        
+#              Pass Pattern NO.        258   
+# 
+# 
+#        
+#              Pass Pattern NO.        259   
+# 
+# 
+#        
+#              Pass Pattern NO.        260   
+# 
+# 
+#        
+#              Pass Pattern NO.        261   
+# 
+# 
+#        
+#              Pass Pattern NO.        262   
+# 
+# 
+#        
+#              Pass Pattern NO.        263   
+# 
+# 
+#        
+#              Pass Pattern NO.        264   
+# 
+# 
+#        
+#              Pass Pattern NO.        265   
+# 
+# 
+#        
+#              Pass Pattern NO.        266   
+# 
+# 
+#        
+#              Pass Pattern NO.        267   
+# 
+# 
+#        
+#              Pass Pattern NO.        268   
+# 
+# 
+#        
+#              Pass Pattern NO.        269   
+# 
+# 
+#        
+#              Pass Pattern NO.        270   
+# 
+# 
+#        
+#              Pass Pattern NO.        271   
+# 
+# 
+#        
+#              Pass Pattern NO.        272   
+# 
+# 
+#        
+#              Pass Pattern NO.        273   
+# 
+# 
+#        
+#              Pass Pattern NO.        274   
+# 
+# 
+#        
+#              Pass Pattern NO.        275   
+# 
+# 
+#        
+#              Pass Pattern NO.        276   
+# 
+# 
+#        
+#              Pass Pattern NO.        277   
+# 
+# 
+#        
+#              Pass Pattern NO.        278   
+# 
+# 
+#        
+#              Pass Pattern NO.        279   
+# 
+# 
+#        
+#              Pass Pattern NO.        280   
+# 
+# 
+#        
+#              Pass Pattern NO.        281   
+# 
+# 
+#        
+#              Pass Pattern NO.        282   
+# 
+# 
+#        
+#              Pass Pattern NO.        283   
+# 
+# 
+#        
+#              Pass Pattern NO.        284   
+# 
+# 
+#        
+#              Pass Pattern NO.        285   
+# 
+# 
+#        
+#              Pass Pattern NO.        286   
+# 
+# 
+#        
+#              Pass Pattern NO.        287   
+# 
+# 
+#        
+#              Pass Pattern NO.        288   
+# 
+# 
+#        
+#              Pass Pattern NO.        289   
+# 
+# 
+#        
+#              Pass Pattern NO.        290   
+# 
+# 
+#        
+#              Pass Pattern NO.        291   
+# 
+# 
+#        
+#              Pass Pattern NO.        292   
+# 
+# 
+#        
+#              Pass Pattern NO.        293   
+# 
+# 
+#        
+#              Pass Pattern NO.        294   
+# 
+# 
+#        
+#              Pass Pattern NO.        295   
+# 
+# 
+#        
+#              Pass Pattern NO.        296   
+# 
+# 
+#        
+#              Pass Pattern NO.        297   
+# 
+# 
+#        
+#              Pass Pattern NO.        298   
+# 
+# 
+#        
+#              Pass Pattern NO.        299   
+# 
+# 
+#        
+#              Pass Pattern NO.        300   
+# 
+# 
+#        
+#              Pass Pattern NO.        301   
+# 
+# 
+#        
+#              Pass Pattern NO.        302   
+# 
+# 
+#        
+#              Pass Pattern NO.        303   
+# 
+# 
+#        
+#              Pass Pattern NO.        304   
+# 
+# 
+#        
+#              Pass Pattern NO.        305   
+# 
+# 
+#        
+#              Pass Pattern NO.        306   
+# 
+# 
+#        
+#              Pass Pattern NO.        307   
+# 
+# 
+#        
+#              Pass Pattern NO.        308   
+# 
+# 
+#        
+#              Pass Pattern NO.        309   
+# 
+# 
+#        
+#              Pass Pattern NO.        310   
+# 
+# 
+#        
+#              Pass Pattern NO.        311   
+# 
+# 
+#        
+#              Pass Pattern NO.        312   
+# 
+# 
+#        
+#              Pass Pattern NO.        313   
+# 
+# 
+#        
+#              Pass Pattern NO.        314   
+# 
+# 
+#        
+#              Pass Pattern NO.        315   
+# 
+# 
+#        
+#              Pass Pattern NO.        316   
+# 
+# 
+#        
+#              Pass Pattern NO.        317   
+# 
+# 
+#        
+#              Pass Pattern NO.        318   
+# 
+# 
+#        
+#              Pass Pattern NO.        319   
+# 
+# 
+#        
+#              Pass Pattern NO.        320   
+# 
+# 
+#        
+#              Pass Pattern NO.        321   
+# 
+# 
+#        
+#              Pass Pattern NO.        322   
+# 
+# 
+#        
+#              Pass Pattern NO.        323   
+# 
+# 
+#        
+#              Pass Pattern NO.        324   
+# 
+# 
+#        
+#              Pass Pattern NO.        325   
+# 
+# 
+#        
+#              Pass Pattern NO.        326   
+# 
+# 
+#        
+#              Pass Pattern NO.        327   
+# 
+# 
+#        
+#              Pass Pattern NO.        328   
+# 
+# 
+#        
+#              Pass Pattern NO.        329   
+# 
+# 
+#        
+#              Pass Pattern NO.        330   
+# 
+# 
+#        
+#              Pass Pattern NO.        331   
+# 
+# 
+#        
+#              Pass Pattern NO.        332   
+# 
+# 
+#        
+#              Pass Pattern NO.        333   
+# 
+# 
+#        
+#              Pass Pattern NO.        334   
+# 
+# 
+#        
+#              Pass Pattern NO.        335   
+# 
+# 
+#        
+#              Pass Pattern NO.        336   
+# 
+# 
+#        
+#              Pass Pattern NO.        337   
+# 
+# 
+#        
+#              Pass Pattern NO.        338   
+# 
+# 
+#        
+#              Pass Pattern NO.        339   
+# 
+# 
+#        
+#              Pass Pattern NO.        340   
+# 
+# 
+#        
+#              Pass Pattern NO.        341   
+# 
+# 
+#        
+#              Pass Pattern NO.        342   
+# 
+# 
+#        
+#              Pass Pattern NO.        343   
+# 
+# 
+#        
+#              Pass Pattern NO.        344   
+# 
+# 
+#        
+#              Pass Pattern NO.        345   
+# 
+# 
+#        
+#              Pass Pattern NO.        346   
+# 
+# 
+#        
+#              Pass Pattern NO.        347   
+# 
+# 
+#        
+#              Pass Pattern NO.        348   
+# 
+# 
+#        
+#              Pass Pattern NO.        349   
+# 
+# 
+#        
+#              Pass Pattern NO.        350   
+# 
+# 
+#        
+#              Pass Pattern NO.        351   
+# 
+# 
+#        
+#              Pass Pattern NO.        352   
+# 
+# 
+#        
+#              Pass Pattern NO.        353   
+# 
+# 
+#        
+#              Pass Pattern NO.        354   
+# 
+# 
+#        
+#              Pass Pattern NO.        355   
+# 
+# 
+#        
+#              Pass Pattern NO.        356   
+# 
+# 
+#        
+#              Pass Pattern NO.        357   
+# 
+# 
+#        
+#              Pass Pattern NO.        358   
+# 
+# 
+#        
+#              Pass Pattern NO.        359   
+# 
+# 
+#        
+#              Pass Pattern NO.        360   
+# 
+# 
+#        
+#              Pass Pattern NO.        361   
+# 
+# 
+#        
+#              Pass Pattern NO.        362   
+# 
+# 
+#        
+#              Pass Pattern NO.        363   
+# 
+# 
+#        
+#              Pass Pattern NO.        364   
+# 
+# 
+#        
+#              Pass Pattern NO.        365   
+# 
+# 
+#        
+#              Pass Pattern NO.        366   
+# 
+# 
+#        
+#              Pass Pattern NO.        367   
+# 
+# 
+#        
+#              Pass Pattern NO.        368   
+# 
+# 
+#        
+#              Pass Pattern NO.        369   
+# 
+# 
+#        
+#              Pass Pattern NO.        370   
+# 
+# 
+#        
+#              Pass Pattern NO.        371   
+# 
+# 
+#        
+#              Pass Pattern NO.        372   
+# 
+# 
+#        
+#              Pass Pattern NO.        373   
+# 
+# 
+#        
+#              Pass Pattern NO.        374   
+# 
+# 
+#        
+#              Pass Pattern NO.        375   
+# 
+# 
+#        
+#              Pass Pattern NO.        376   
+# 
+# 
+#        
+#              Pass Pattern NO.        377   
+# 
+# 
+#        
+#              Pass Pattern NO.        378   
+# 
+# 
+#        
+#              Pass Pattern NO.        379   
+# 
+# 
+#        
+#              Pass Pattern NO.        380   
+# 
+# 
+#        
+#              Pass Pattern NO.        381   
+# 
+# 
+#        
+#              Pass Pattern NO.        382   
+# 
+# 
+#        
+#              Pass Pattern NO.        383   
+# 
+# 
+#        
+#              Pass Pattern NO.        384   
+# 
+# 
+#        
+#              Pass Pattern NO.        385   
+# 
+# 
+#        
+#              Pass Pattern NO.        386   
+# 
+# 
+#        
+#              Pass Pattern NO.        387   
+# 
+# 
+#        
+#              Pass Pattern NO.        388   
+# 
+# 
+#        
+#              Pass Pattern NO.        389   
+# 
+# 
+#        
+#              Pass Pattern NO.        390   
+# 
+# 
+#        
+#              Pass Pattern NO.        391   
+# 
+# 
+#        
+#              Pass Pattern NO.        392   
+# 
+# 
+#        
+#              Pass Pattern NO.        393   
+# 
+# 
+#        
+#              Pass Pattern NO.        394   
+# 
+# 
+#        
+#              Pass Pattern NO.        395   
+# 
+# 
+#        
+#              Pass Pattern NO.        396   
+# 
+# 
+#        
+#              Pass Pattern NO.        397   
+# 
+# 
+#        
+#              Pass Pattern NO.        398   
+# 
+# 
+#        
+#              Pass Pattern NO.        399   
+# 
+# 
+#        
+#              Pass Pattern NO.        400   
+# 
+# 
+#        
+#              Pass Pattern NO.        401   
+# 
+# 
+#        
+#              Pass Pattern NO.        402   
+# 
+# 
+#        
+#              Pass Pattern NO.        403   
+# 
+# 
+#        
+#              Pass Pattern NO.        404   
+# 
+# 
+#        
+#              Pass Pattern NO.        405   
+# 
+# 
+#        
+#              Pass Pattern NO.        406   
+# 
+# 
+#        
+#              Pass Pattern NO.        407   
+# 
+# 
+#        
+#              Pass Pattern NO.        408   
+# 
+# 
+#        
+#              Pass Pattern NO.        409   
+# 
+# 
+#        
+#              Pass Pattern NO.        410   
+# 
+# 
+#        
+#              Pass Pattern NO.        411   
+# 
+# 
+#        
+#              Pass Pattern NO.        412   
+# 
+# 
+#        
+#              Pass Pattern NO.        413   
+# 
+# 
+#        
+#              Pass Pattern NO.        414   
+# 
+# 
+#        
+#              Pass Pattern NO.        415   
+# 
+# 
+#        
+#              Pass Pattern NO.        416   
+# 
+# 
+#        
+#              Pass Pattern NO.        417   
+# 
+# 
+#        
+#              Pass Pattern NO.        418   
+# 
+# 
+#        
+#              Pass Pattern NO.        419   
+# 
+# 
+#        
+#              Pass Pattern NO.        420   
+# 
+# 
+#        
+#              Pass Pattern NO.        421   
+# 
+# 
+#        
+#              Pass Pattern NO.        422   
+# 
+# 
+#        
+#              Pass Pattern NO.        423   
+# 
+# 
+#        
+#              Pass Pattern NO.        424   
+# 
+# 
+#        
+#              Pass Pattern NO.        425   
+# 
+# 
+#        
+#              Pass Pattern NO.        426   
+# 
+# 
+#        
+#              Pass Pattern NO.        427   
+# 
+# 
+#        
+#              Pass Pattern NO.        428   
+# 
+# 
+#        
+#              Pass Pattern NO.        429   
+# 
+# 
+#        
+#              Pass Pattern NO.        430   
+# 
+# 
+#        
+#              Pass Pattern NO.        431   
+# 
+# 
+#        
+#              Pass Pattern NO.        432   
+# 
+# 
+#        
+#              Pass Pattern NO.        433   
+# 
+# 
+#        
+#              Pass Pattern NO.        434   
+# 
+# 
+#        
+#              Pass Pattern NO.        435   
+# 
+# 
+#        
+#              Pass Pattern NO.        436   
+# 
+# 
+#        
+#              Pass Pattern NO.        437   
+# 
+# 
+#        
+#              Pass Pattern NO.        438   
+# 
+# 
+#        
+#              Pass Pattern NO.        439   
+# 
+# 
+#        
+#              Pass Pattern NO.        440   
+# 
+# 
+#        
+#              Pass Pattern NO.        441   
+# 
+# 
+#        
+#              Pass Pattern NO.        442   
+# 
+# 
+#        
+#              Pass Pattern NO.        443   
+# 
+# 
+#        
+#              Pass Pattern NO.        444   
+# 
+# 
+#        
+#              Pass Pattern NO.        445   
+# 
+# 
+#        
+#              Pass Pattern NO.        446   
+# 
+# 
+#        
+#              Pass Pattern NO.        447   
+# 
+# 
+#        
+#              Pass Pattern NO.        448   
+# 
+# 
+#        
+#              Pass Pattern NO.        449   
+# 
+# 
+#        
+#              Pass Pattern NO.        450   
+# 
+# 
+#        
+#              Pass Pattern NO.        451   
+# 
+# 
+#        
+#              Pass Pattern NO.        452   
+# 
+# 
+#        
+#              Pass Pattern NO.        453   
+# 
+# 
+#        
+#              Pass Pattern NO.        454   
+# 
+# 
+#        
+#              Pass Pattern NO.        455   
+# 
+# 
+#        
+#              Pass Pattern NO.        456   
+# 
+# 
+#        
+#              Pass Pattern NO.        457   
+# 
+# 
+#        
+#              Pass Pattern NO.        458   
+# 
+# 
+#        
+#              Pass Pattern NO.        459   
+# 
+# 
+#        
+#              Pass Pattern NO.        460   
+# 
+# 
+#        
+#              Pass Pattern NO.        461   
+# 
+# 
+#        
+#              Pass Pattern NO.        462   
+# 
+# 
+#        
+#              Pass Pattern NO.        463   
+# 
+# 
+#        
+#              Pass Pattern NO.        464   
+# 
+# 
+#        
+#              Pass Pattern NO.        465   
+# 
+# 
+#        
+#              Pass Pattern NO.        466   
+# 
+# 
+#        
+#              Pass Pattern NO.        467   
+# 
+# 
+#        
+#              Pass Pattern NO.        468   
+# 
+# 
+#        
+#              Pass Pattern NO.        469   
+# 
+# 
+#        
+#              Pass Pattern NO.        470   
+# 
+# 
+#        
+#              Pass Pattern NO.        471   
+# 
+# 
+#        
+#              Pass Pattern NO.        472   
+# 
+# 
+#        
+#              Pass Pattern NO.        473   
+# 
+# 
+#        
+#              Pass Pattern NO.        474   
+# 
+# 
+#        
+#              Pass Pattern NO.        475   
+# 
+# 
+#        
+#              Pass Pattern NO.        476   
+# 
+# 
+#        
+#              Pass Pattern NO.        477   
+# 
+# 
+#        
+#              Pass Pattern NO.        478   
+# 
+# 
+#        
+#              Pass Pattern NO.        479   
+# 
+# 
+#        
+#              Pass Pattern NO.        480   
+# 
+# 
+#        
+#              Pass Pattern NO.        481   
+# 
+# 
+#        
+#              Pass Pattern NO.        482   
+# 
+# 
+#        
+#              Pass Pattern NO.        483   
+# 
+# 
+#        
+#              Pass Pattern NO.        484   
+# 
+# 
+#        
+#              Pass Pattern NO.        485   
+# 
+# 
+#        
+#              Pass Pattern NO.        486   
+# 
+# 
+#        
+#              Pass Pattern NO.        487   
+# 
+# 
+#        
+#              Pass Pattern NO.        488   
+# 
+# 
+#        
+#              Pass Pattern NO.        489   
+# 
+# 
+#        
+#              Pass Pattern NO.        490   
+# 
+# 
+#        
+#              Pass Pattern NO.        491   
+# 
+# 
+#        
+#              Pass Pattern NO.        492   
+# 
+# 
+#        
+#              Pass Pattern NO.        493   
+# 
+# 
+#        
+#              Pass Pattern NO.        494   
+# 
+# 
+#        
+#              Pass Pattern NO.        495   
+# 
+# 
+#        
+#              Pass Pattern NO.        496   
+# 
+# 
+#        
+#              Pass Pattern NO.        497   
+# 
+# 
+#        
+#              Pass Pattern NO.        498   
+# 
+# 
+#        
+#              Pass Pattern NO.        499   
+# 
+# 
+#        
+#              Pass Pattern NO.        500   
+# 
+# 
+#        
+#              Pass Pattern NO.        501   
+# 
+# 
+#        
+#              Pass Pattern NO.        502   
+# 
+# 
+#        
+#              Pass Pattern NO.        503   
+# 
+# 
+#        
+#              Pass Pattern NO.        504   
+# 
+# 
+#        
+#              Pass Pattern NO.        505   
+# 
+# 
+#        
+#              Pass Pattern NO.        506   
+# 
+# 
+#        
+#              Pass Pattern NO.        507   
+# 
+# 
+#        
+#              Pass Pattern NO.        508   
+# 
+# 
+#        
+#              Pass Pattern NO.        509   
+# 
+# 
+#        
+#              Pass Pattern NO.        510   
+# 
+# 
+#        
+#              Pass Pattern NO.        511   
+# 
+# 
+#        
+#              Pass Pattern NO.        512   
+# 
+# 
+#        
+#              Pass Pattern NO.        513   
+# 
+# 
+#        
+#              Pass Pattern NO.        514   
+# 
+# 
+#        
+#              Pass Pattern NO.        515   
+# 
+# 
+#        
+#              Pass Pattern NO.        516   
+# 
+# 
+#        
+#              Pass Pattern NO.        517   
+# 
+# 
+#        
+#              Pass Pattern NO.        518   
+# 
+# 
+#        
+#              Pass Pattern NO.        519   
+# 
+# 
+#        
+#              Pass Pattern NO.        520   
+# 
+# 
+#        
+#              Pass Pattern NO.        521   
+# 
+# 
+#        
+#              Pass Pattern NO.        522   
+# 
+# 
+#        
+#              Pass Pattern NO.        523   
+# 
+# 
+#        
+#              Pass Pattern NO.        524   
+# 
+# 
+#        
+#              Pass Pattern NO.        525   
+# 
+# 
+#        
+#              Pass Pattern NO.        526   
+# 
+# 
+#        
+#              Pass Pattern NO.        527   
+# 
+# 
+#        
+#              Pass Pattern NO.        528   
+# 
+# 
+#        
+#              Pass Pattern NO.        529   
+# 
+# 
+#        
+#              Pass Pattern NO.        530   
+# 
+# 
+#        
+#              Pass Pattern NO.        531   
+# 
+# 
+#        
+#              Pass Pattern NO.        532   
+# 
+# 
+#        
+#              Pass Pattern NO.        533   
+# 
+# 
+#        
+#              Pass Pattern NO.        534   
+# 
+# 
+#        
+#              Pass Pattern NO.        535   
+# 
+# 
+#        
+#              Pass Pattern NO.        536   
+# 
+# 
+#        
+#              Pass Pattern NO.        537   
+# 
+# 
+#        
+#              Pass Pattern NO.        538   
+# 
+# 
+#        
+#              Pass Pattern NO.        539   
+# 
+# 
+#        
+#              Pass Pattern NO.        540   
+# 
+# 
+#        
+#              Pass Pattern NO.        541   
+# 
+# 
+#        
+#              Pass Pattern NO.        542   
+# 
+# 
+#        
+#              Pass Pattern NO.        543   
+# 
+# 
+#        
+#              Pass Pattern NO.        544   
+# 
+# 
+#        
+#              Pass Pattern NO.        545   
+# 
+# 
+#        
+#              Pass Pattern NO.        546   
+# 
+# 
+#        
+#              Pass Pattern NO.        547   
+# 
+# 
+#        
+#              Pass Pattern NO.        548   
+# 
+# 
+#        
+#              Pass Pattern NO.        549   
+# 
+# 
+#        
+#              Pass Pattern NO.        550   
+# 
+# 
+#        
+#              Pass Pattern NO.        551   
+# 
+# 
+#        
+#              Pass Pattern NO.        552   
+# 
+# 
+#        
+#              Pass Pattern NO.        553   
+# 
+# 
+#        
+#              Pass Pattern NO.        554   
+# 
+# 
+#        
+#              Pass Pattern NO.        555   
+# 
+# 
+#        
+#              Pass Pattern NO.        556   
+# 
+# 
+#        
+#              Pass Pattern NO.        557   
+# 
+# 
+#        
+#              Pass Pattern NO.        558   
+# 
+# 
+#        
+#              Pass Pattern NO.        559   
+# 
+# 
+#        
+#              Pass Pattern NO.        560   
+# 
+# 
+#        
+#              Pass Pattern NO.        561   
+# 
+# 
+#        
+#              Pass Pattern NO.        562   
+# 
+# 
+#        
+#              Pass Pattern NO.        563   
+# 
+# 
+#        
+#              Pass Pattern NO.        564   
+# 
+# 
+#        
+#              Pass Pattern NO.        565   
+# 
+# 
+#        
+#              Pass Pattern NO.        566   
+# 
+# 
+#        
+#              Pass Pattern NO.        567   
+# 
+# 
+#        
+#              Pass Pattern NO.        568   
+# 
+# 
+#        
+#              Pass Pattern NO.        569   
+# 
+# 
+#        
+#              Pass Pattern NO.        570   
+# 
+# 
+#        
+#              Pass Pattern NO.        571   
+# 
+# 
+#        
+#              Pass Pattern NO.        572   
+# 
+# 
+#        
+#              Pass Pattern NO.        573   
+# 
+# 
+#        
+#              Pass Pattern NO.        574   
+# 
+# 
+#        
+#              Pass Pattern NO.        575   
+# 
+# 
+#        
+#              Pass Pattern NO.        576   
+# 
+# 
+#        
+#              Pass Pattern NO.        577   
+# 
+# 
+#        
+#              Pass Pattern NO.        578   
+# 
+# 
+#        
+#              Pass Pattern NO.        579   
+# 
+# 
+#        
+#              Pass Pattern NO.        580   
+# 
+# 
+#        
+#              Pass Pattern NO.        581   
+# 
+# 
+#        
+#              Pass Pattern NO.        582   
+# 
+# 
+#        
+#              Pass Pattern NO.        583   
+# 
+# 
+#        
+#              Pass Pattern NO.        584   
+# 
+# 
+#        
+#              Pass Pattern NO.        585   
+# 
+# 
+#        
+#              Pass Pattern NO.        586   
+# 
+# 
+#        
+#              Pass Pattern NO.        587   
+# 
+# 
+#        
+#              Pass Pattern NO.        588   
+# 
+# 
+#        
+#              Pass Pattern NO.        589   
+# 
+# 
+#        
+#              Pass Pattern NO.        590   
+# 
+# 
+#        
+#              Pass Pattern NO.        591   
+# 
+# 
+#        
+#              Pass Pattern NO.        592   
+# 
+# 
+#        
+#              Pass Pattern NO.        593   
+# 
+# 
+#        
+#              Pass Pattern NO.        594   
+# 
+# 
+#        
+#              Pass Pattern NO.        595   
+# 
+# 
+#        
+#              Pass Pattern NO.        596   
+# 
+# 
+#        
+#              Pass Pattern NO.        597   
+# 
+# 
+#        
+#              Pass Pattern NO.        598   
+# 
+# 
+#        
+#              Pass Pattern NO.        599   
+# 
+# 
+#        
+#              Pass Pattern NO.        600   
+# 
+# 
+#        
+#              Pass Pattern NO.        601   
+# 
+# 
+#        
+#              Pass Pattern NO.        602   
+# 
+# 
+#        
+#              Pass Pattern NO.        603   
+# 
+# 
+#        
+#              Pass Pattern NO.        604   
+# 
+# 
+#        
+#              Pass Pattern NO.        605   
+# 
+# 
+#        
+#              Pass Pattern NO.        606   
+# 
+# 
+#        
+#              Pass Pattern NO.        607   
+# 
+# 
+#        
+#              Pass Pattern NO.        608   
+# 
+# 
+#        
+#              Pass Pattern NO.        609   
+# 
+# 
+#        
+#              Pass Pattern NO.        610   
+# 
+# 
+#        
+#              Pass Pattern NO.        611   
+# 
+# 
+#        
+#              Pass Pattern NO.        612   
+# 
+# 
+#        
+#              Pass Pattern NO.        613   
+# 
+# 
+#        
+#              Pass Pattern NO.        614   
+# 
+# 
+#        
+#              Pass Pattern NO.        615   
+# 
+# 
+#        
+#              Pass Pattern NO.        616   
+# 
+# 
+#        
+#              Pass Pattern NO.        617   
+# 
+# 
+#        
+#              Pass Pattern NO.        618   
+# 
+# 
+#        
+#              Pass Pattern NO.        619   
+# 
+# 
+#        
+#              Pass Pattern NO.        620   
+# 
+# 
+#        
+#              Pass Pattern NO.        621   
+# 
+# 
+#        
+#              Pass Pattern NO.        622   
+# 
+# 
+#        
+#              Pass Pattern NO.        623   
+# 
+# 
+#        
+#              Pass Pattern NO.        624   
+# 
+# 
+#        
+#              Pass Pattern NO.        625   
+# 
+# 
+#        
+#              Pass Pattern NO.        626   
+# 
+# 
+#        
+#              Pass Pattern NO.        627   
+# 
+# 
+#        
+#              Pass Pattern NO.        628   
+# 
+# 
+#        
+#              Pass Pattern NO.        629   
+# 
+# 
+#        
+#              Pass Pattern NO.        630   
+# 
+# 
+#        
+#              Pass Pattern NO.        631   
+# 
+# 
+#        
+#              Pass Pattern NO.        632   
+# 
+# 
+#        
+#              Pass Pattern NO.        633   
+# 
+# 
+#        
+#              Pass Pattern NO.        634   
+# 
+# 
+#        
+#              Pass Pattern NO.        635   
+# 
+# 
+#        
+#              Pass Pattern NO.        636   
+# 
+# 
+#        
+#              Pass Pattern NO.        637   
+# 
+# 
+#        
+#              Pass Pattern NO.        638   
+# 
+# 
+#        
+#              Pass Pattern NO.        639   
+# 
+# 
+#        
+#              Pass Pattern NO.        640   
+# 
+# 
+#        
+#              Pass Pattern NO.        641   
+# 
+# 
+#        
+#              Pass Pattern NO.        642   
+# 
+# 
+#        
+#              Pass Pattern NO.        643   
+# 
+# 
+#        
+#              Pass Pattern NO.        644   
+# 
+# 
+#        
+#              Pass Pattern NO.        645   
+# 
+# 
+#        
+#              Pass Pattern NO.        646   
+# 
+# 
+#        
+#              Pass Pattern NO.        647   
+# 
+# 
+#        
+#              Pass Pattern NO.        648   
+# 
+# 
+#        
+#              Pass Pattern NO.        649   
+# 
+# 
+#        
+#              Pass Pattern NO.        650   
+# 
+# 
+#        
+#              Pass Pattern NO.        651   
+# 
+# 
+#        
+#              Pass Pattern NO.        652   
+# 
+# 
+#        
+#              Pass Pattern NO.        653   
+# 
+# 
+#        
+#              Pass Pattern NO.        654   
+# 
+# 
+#        
+#              Pass Pattern NO.        655   
+# 
+# 
+#        
+#              Pass Pattern NO.        656   
+# 
+# 
+#        
+#              Pass Pattern NO.        657   
+# 
+# 
+#        
+#              Pass Pattern NO.        658   
+# 
+# 
+#        
+#              Pass Pattern NO.        659   
+# 
+# 
+#        
+#              Pass Pattern NO.        660   
+# 
+# 
+#        
+#              Pass Pattern NO.        661   
+# 
+# 
+#        
+#              Pass Pattern NO.        662   
+# 
+# 
+#        
+#              Pass Pattern NO.        663   
+# 
+# 
+#        
+#              Pass Pattern NO.        664   
+# 
+# 
+#        
+#              Pass Pattern NO.        665   
+# 
+# 
+#        
+#              Pass Pattern NO.        666   
+# 
+# 
+#        
+#              Pass Pattern NO.        667   
+# 
+# 
+#        
+#              Pass Pattern NO.        668   
+# 
+# 
+#        
+#              Pass Pattern NO.        669   
+# 
+# 
+#        
+#              Pass Pattern NO.        670   
+# 
+# 
+#        
+#              Pass Pattern NO.        671   
+# 
+# 
+#        
+#              Pass Pattern NO.        672   
+# 
+# 
+#        
+#              Pass Pattern NO.        673   
+# 
+# 
+#        
+#              Pass Pattern NO.        674   
+# 
+# 
+#        
+#              Pass Pattern NO.        675   
+# 
+# 
+#        
+#              Pass Pattern NO.        676   
+# 
+# 
+#        
+#              Pass Pattern NO.        677   
+# 
+# 
+#        
+#              Pass Pattern NO.        678   
+# 
+# 
+#        
+#              Pass Pattern NO.        679   
+# 
+# 
+#        
+#              Pass Pattern NO.        680   
+# 
+# 
+#        
+#              Pass Pattern NO.        681   
+# 
+# 
+#        
+#              Pass Pattern NO.        682   
+# 
+# 
+#        
+#              Pass Pattern NO.        683   
+# 
+# 
+#        
+#              Pass Pattern NO.        684   
+# 
+# 
+#        
+#              Pass Pattern NO.        685   
+# 
+# 
+#        
+#              Pass Pattern NO.        686   
+# 
+# 
+#        
+#              Pass Pattern NO.        687   
+# 
+# 
+#        
+#              Pass Pattern NO.        688   
+# 
+# 
+#        
+#              Pass Pattern NO.        689   
+# 
+# 
+#        
+#              Pass Pattern NO.        690   
+# 
+# 
+#        
+#              Pass Pattern NO.        691   
+# 
+# 
+#        
+#              Pass Pattern NO.        692   
+# 
+# 
+#        
+#              Pass Pattern NO.        693   
+# 
+# 
+#        
+#              Pass Pattern NO.        694   
+# 
+# 
+#        
+#              Pass Pattern NO.        695   
+# 
+# 
+#        
+#              Pass Pattern NO.        696   
+# 
+# 
+#        
+#              Pass Pattern NO.        697   
+# 
+# 
+#        
+#              Pass Pattern NO.        698   
+# 
+# 
+#        
+#              Pass Pattern NO.        699   
+# 
+# 
+#        
+#              Pass Pattern NO.        700   
+# 
+# 
+#        
+#              Pass Pattern NO.        701   
+# 
+# 
+#        
+#              Pass Pattern NO.        702   
+# 
+# 
+#        
+#              Pass Pattern NO.        703   
+# 
+# 
+#        
+#              Pass Pattern NO.        704   
+# 
+# 
+#        
+#              Pass Pattern NO.        705   
+# 
+# 
+#        
+#              Pass Pattern NO.        706   
+# 
+# 
+#        
+#              Pass Pattern NO.        707   
+# 
+# 
+#        
+#              Pass Pattern NO.        708   
+# 
+# 
+#        
+#              Pass Pattern NO.        709   
+# 
+# 
+#        
+#              Pass Pattern NO.        710   
+# 
+# 
+#        
+#              Pass Pattern NO.        711   
+# 
+# 
+#        
+#              Pass Pattern NO.        712   
+# 
+# 
+#        
+#              Pass Pattern NO.        713   
+# 
+# 
+#        
+#              Pass Pattern NO.        714   
+# 
+# 
+#        
+#              Pass Pattern NO.        715   
+# 
+# 
+#        
+#              Pass Pattern NO.        716   
+# 
+# 
+#        
+#              Pass Pattern NO.        717   
+# 
+# 
+#        
+#              Pass Pattern NO.        718   
+# 
+# 
+#        
+#              Pass Pattern NO.        719   
+# 
+# 
+#        
+#              Pass Pattern NO.        720   
+# 
+# 
+#        
+#              Pass Pattern NO.        721   
+# 
+# 
+#        
+#              Pass Pattern NO.        722   
+# 
+# 
+#        
+#              Pass Pattern NO.        723   
+# 
+# 
+#        
+#              Pass Pattern NO.        724   
+# 
+# 
+#        
+#              Pass Pattern NO.        725   
+# 
+# 
+#        
+#              Pass Pattern NO.        726   
+# 
+# 
+#        
+#              Pass Pattern NO.        727   
+# 
+# 
+#        
+#              Pass Pattern NO.        728   
+# 
+# 
+#        
+#              Pass Pattern NO.        729   
+# 
+# 
+#        
+#              Pass Pattern NO.        730   
+# 
+# 
+#        
+#              Pass Pattern NO.        731   
+# 
+# 
+#        
+#              Pass Pattern NO.        732   
+# 
+# 
+#        
+#              Pass Pattern NO.        733   
+# 
+# 
+#        
+#              Pass Pattern NO.        734   
+# 
+# 
+#        
+#              Pass Pattern NO.        735   
+# 
+# 
+#        
+#              Pass Pattern NO.        736   
+# 
+# 
+#        
+#              Pass Pattern NO.        737   
+# 
+# 
+#        
+#              Pass Pattern NO.        738   
+# 
+# 
+#        
+#              Pass Pattern NO.        739   
+# 
+# 
+#        
+#              Pass Pattern NO.        740   
+# 
+# 
+#        
+#              Pass Pattern NO.        741   
+# 
+# 
+#        
+#              Pass Pattern NO.        742   
+# 
+# 
+#        
+#              Pass Pattern NO.        743   
+# 
+# 
+#        
+#              Pass Pattern NO.        744   
+# 
+# 
+#        
+#              Pass Pattern NO.        745   
+# 
+# 
+#        
+#              Pass Pattern NO.        746   
+# 
+# 
+#        
+#              Pass Pattern NO.        747   
+# 
+# 
+#        
+#              Pass Pattern NO.        748   
+# 
+# 
+#        
+#              Pass Pattern NO.        749   
+# 
+# 
+#        
+#              Pass Pattern NO.        750   
+# 
+# 
+#        
+#              Pass Pattern NO.        751   
+# 
+# 
+#        
+#              Pass Pattern NO.        752   
+# 
+# 
+#        
+#              Pass Pattern NO.        753   
+# 
+# 
+#        
+#              Pass Pattern NO.        754   
+# 
+# 
+#        
+#              Pass Pattern NO.        755   
+# 
+# 
+#        
+#              Pass Pattern NO.        756   
+# 
+# 
+#        
+#              Pass Pattern NO.        757   
+# 
+# 
+#        
+#              Pass Pattern NO.        758   
+# 
+# 
+#        
+#              Pass Pattern NO.        759   
+# 
+# 
+#        
+#              Pass Pattern NO.        760   
+# 
+# 
+#        
+#              Pass Pattern NO.        761   
+# 
+# 
+#        
+#              Pass Pattern NO.        762   
+# 
+# 
+#        
+#              Pass Pattern NO.        763   
+# 
+# 
+#        
+#              Pass Pattern NO.        764   
+# 
+# 
+#        
+#              Pass Pattern NO.        765   
+# 
+# 
+#        
+#              Pass Pattern NO.        766   
+# 
+# 
+#        
+#              Pass Pattern NO.        767   
+# 
+# 
+#        
+#              Pass Pattern NO.        768   
+# 
+# 
+#        
+#              Pass Pattern NO.        769   
+# 
+# 
+#        
+#              Pass Pattern NO.        770   
+# 
+# 
+#        
+#              Pass Pattern NO.        771   
+# 
+# 
+#        
+#              Pass Pattern NO.        772   
+# 
+# 
+#        
+#              Pass Pattern NO.        773   
+# 
+# 
+#        
+#              Pass Pattern NO.        774   
+# 
+# 
+#        
+#              Pass Pattern NO.        775   
+# 
+# 
+#        
+#              Pass Pattern NO.        776   
+# 
+# 
+#        
+#              Pass Pattern NO.        777   
+# 
+# 
+#        
+#              Pass Pattern NO.        778   
+# 
+# 
+#        
+#              Pass Pattern NO.        779   
+# 
+# 
+#        
+#              Pass Pattern NO.        780   
+# 
+# 
+#        
+#              Pass Pattern NO.        781   
+# 
+# 
+#        
+#              Pass Pattern NO.        782   
+# 
+# 
+#        
+#              Pass Pattern NO.        783   
+# 
+# 
+#        
+#              Pass Pattern NO.        784   
+# 
+# 
+#        
+#              Pass Pattern NO.        785   
+# 
+# 
+#        
+#              Pass Pattern NO.        786   
+# 
+# 
+#        
+#              Pass Pattern NO.        787   
+# 
+# 
+#        
+#              Pass Pattern NO.        788   
+# 
+# 
+#        
+#              Pass Pattern NO.        789   
+# 
+# 
+#        
+#              Pass Pattern NO.        790   
+# 
+# 
+#        
+#              Pass Pattern NO.        791   
+# 
+# 
+#        
+#              Pass Pattern NO.        792   
+# 
+# 
+#        
+#              Pass Pattern NO.        793   
+# 
+# 
+#        
+#              Pass Pattern NO.        794   
+# 
+# 
+#        
+#              Pass Pattern NO.        795   
+# 
+# 
+#        
+#              Pass Pattern NO.        796   
+# 
+# 
+#        
+#              Pass Pattern NO.        797   
+# 
+# 
+#        
+#              Pass Pattern NO.        798   
+# 
+# 
+#        
+#              Pass Pattern NO.        799   
+# 
+# 
+#        
+#              Pass Pattern NO.        800   
+# 
+# 
+#        
+#              Pass Pattern NO.        801   
+# 
+# 
+#        
+#              Pass Pattern NO.        802   
+# 
+# 
+#        
+#              Pass Pattern NO.        803   
+# 
+# 
+#        
+#              Pass Pattern NO.        804   
+# 
+# 
+#        
+#              Pass Pattern NO.        805   
+# 
+# 
+#        
+#              Pass Pattern NO.        806   
+# 
+# 
+#        
+#              Pass Pattern NO.        807   
+# 
+# 
+#        
+#              Pass Pattern NO.        808   
+# 
+# 
+#        
+#              Pass Pattern NO.        809   
+# 
+# 
+#        
+#              Pass Pattern NO.        810   
+# 
+# 
+#        
+#              Pass Pattern NO.        811   
+# 
+# 
+#        
+#              Pass Pattern NO.        812   
+# 
+# 
+#        
+#              Pass Pattern NO.        813   
+# 
+# 
+#        
+#              Pass Pattern NO.        814   
+# 
+# 
+#        
+#              Pass Pattern NO.        815   
+# 
+# 
+#        
+#              Pass Pattern NO.        816   
+# 
+# 
+#        
+#              Pass Pattern NO.        817   
+# 
+# 
+#        
+#              Pass Pattern NO.        818   
+# 
+# 
+#        
+#              Pass Pattern NO.        819   
+# 
+# 
+#        
+#              Pass Pattern NO.        820   
+# 
+# 
+#        
+#              Pass Pattern NO.        821   
+# 
+# 
+#        
+#              Pass Pattern NO.        822   
+# 
+# 
+#        
+#              Pass Pattern NO.        823   
+# 
+# 
+#        
+#              Pass Pattern NO.        824   
+# 
+# 
+#        
+#              Pass Pattern NO.        825   
+# 
+# 
+#        
+#              Pass Pattern NO.        826   
+# 
+# 
+#        
+#              Pass Pattern NO.        827   
+# 
+# 
+#        
+#              Pass Pattern NO.        828   
+# 
+# 
+#        
+#              Pass Pattern NO.        829   
+# 
+# 
+#        
+#              Pass Pattern NO.        830   
+# 
+# 
+#        
+#              Pass Pattern NO.        831   
+# 
+# 
+#        
+#              Pass Pattern NO.        832   
+# 
+# 
+#        
+#              Pass Pattern NO.        833   
+# 
+# 
+#        
+#              Pass Pattern NO.        834   
+# 
+# 
+#        
+#              Pass Pattern NO.        835   
+# 
+# 
+#        
+#              Pass Pattern NO.        836   
+# 
+# 
+#        
+#              Pass Pattern NO.        837   
+# 
+# 
+#        
+#              Pass Pattern NO.        838   
+# 
+# 
+#        
+#              Pass Pattern NO.        839   
+# 
+# 
+#        
+#              Pass Pattern NO.        840   
+# 
+# 
+#        
+#              Pass Pattern NO.        841   
+# 
+# 
+#        
+#              Pass Pattern NO.        842   
+# 
+# 
+#        
+#              Pass Pattern NO.        843   
+# 
+# 
+#        
+#              Pass Pattern NO.        844   
+# 
+# 
+#        
+#              Pass Pattern NO.        845   
+# 
+# 
+#        
+#              Pass Pattern NO.        846   
+# 
+# 
+#        
+#              Pass Pattern NO.        847   
+# 
+# 
+#        
+#              Pass Pattern NO.        848   
+# 
+# 
+#        
+#              Pass Pattern NO.        849   
+# 
+# 
+#        
+#              Pass Pattern NO.        850   
+# 
+# 
+#        
+#              Pass Pattern NO.        851   
+# 
+# 
+#        
+#              Pass Pattern NO.        852   
+# 
+# 
+#        
+#              Pass Pattern NO.        853   
+# 
+# 
+#        
+#              Pass Pattern NO.        854   
+# 
+# 
+#        
+#              Pass Pattern NO.        855   
+# 
+# 
+#        
+#              Pass Pattern NO.        856   
+# 
+# 
+#        
+#              Pass Pattern NO.        857   
+# 
+# 
+#        
+#              Pass Pattern NO.        858   
+# 
+# 
+#        
+#              Pass Pattern NO.        859   
+# 
+# 
+#        
+#              Pass Pattern NO.        860   
+# 
+# 
+#        
+#              Pass Pattern NO.        861   
+# 
+# 
+#        
+#              Pass Pattern NO.        862   
+# 
+# 
+#        
+#              Pass Pattern NO.        863   
+# 
+# 
+#        
+#              Pass Pattern NO.        864   
+# 
+# 
+#        
+#              Pass Pattern NO.        865   
+# 
+# 
+#        
+#              Pass Pattern NO.        866   
+# 
+# 
+#        
+#              Pass Pattern NO.        867   
+# 
+# 
+#        
+#              Pass Pattern NO.        868   
+# 
+# 
+#        
+#              Pass Pattern NO.        869   
+# 
+# 
+#        
+#              Pass Pattern NO.        870   
+# 
+# 
+#        
+#              Pass Pattern NO.        871   
+# 
+# 
+#        
+#              Pass Pattern NO.        872   
+# 
+# 
+#        
+#              Pass Pattern NO.        873   
+# 
+# 
+#        
+#              Pass Pattern NO.        874   
+# 
+# 
+#        
+#              Pass Pattern NO.        875   
+# 
+# 
+#        
+#              Pass Pattern NO.        876   
+# 
+# 
+#        
+#              Pass Pattern NO.        877   
+# 
+# 
+#        
+#              Pass Pattern NO.        878   
+# 
+# 
+#        
+#              Pass Pattern NO.        879   
+# 
+# 
+#        
+#              Pass Pattern NO.        880   
+# 
+# 
+#        
+#              Pass Pattern NO.        881   
+# 
+# 
+#        
+#              Pass Pattern NO.        882   
+# 
+# 
+#        
+#              Pass Pattern NO.        883   
+# 
+# 
+#        
+#              Pass Pattern NO.        884   
+# 
+# 
+#        
+#              Pass Pattern NO.        885   
+# 
+# 
+#        
+#              Pass Pattern NO.        886   
+# 
+# 
+#        
+#              Pass Pattern NO.        887   
+# 
+# 
+#        
+#              Pass Pattern NO.        888   
+# 
+# 
+#        
+#              Pass Pattern NO.        889   
+# 
+# 
+#        
+#              Pass Pattern NO.        890   
+# 
+# 
+#        
+#              Pass Pattern NO.        891   
+# 
+# 
+#        
+#              Pass Pattern NO.        892   
+# 
+# 
+#        
+#              Pass Pattern NO.        893   
+# 
+# 
+#        
+#              Pass Pattern NO.        894   
+# 
+# 
+#        
+#              Pass Pattern NO.        895   
+# 
+# 
+#        
+#              Pass Pattern NO.        896   
+# 
+# 
+#        
+#              Pass Pattern NO.        897   
+# 
+# 
+#        
+#              Pass Pattern NO.        898   
+# 
+# 
+#        
+#              Pass Pattern NO.        899   
+# 
+# 
+#        
+#              Pass Pattern NO.        900   
+# 
+# 
+#        
+#              Pass Pattern NO.        901   
+# 
+# 
+#        
+#              Pass Pattern NO.        902   
+# 
+# 
+#        
+#              Pass Pattern NO.        903   
+# 
+# 
+#        
+#              Pass Pattern NO.        904   
+# 
+# 
+#        
+#              Pass Pattern NO.        905   
+# 
+# 
+#        
+#              Pass Pattern NO.        906   
+# 
+# 
+#        
+#              Pass Pattern NO.        907   
+# 
+# 
+#        
+#              Pass Pattern NO.        908   
+# 
+# 
+#        
+#              Pass Pattern NO.        909   
+# 
+# 
+#        
+#              Pass Pattern NO.        910   
+# 
+# 
+#        
+#              Pass Pattern NO.        911   
+# 
+# 
+#        
+#              Pass Pattern NO.        912   
+# 
+# 
+#        
+#              Pass Pattern NO.        913   
+# 
+# 
+#        
+#              Pass Pattern NO.        914   
+# 
+# 
+#        
+#              Pass Pattern NO.        915   
+# 
+# 
+#        
+#              Pass Pattern NO.        916   
+# 
+# 
+#        
+#              Pass Pattern NO.        917   
+# 
+# 
+#        
+#              Pass Pattern NO.        918   
+# 
+# 
+#        
+#              Pass Pattern NO.        919   
+# 
+# 
+#        
+#              Pass Pattern NO.        920   
+# 
+# 
+#        
+#              Pass Pattern NO.        921   
+# 
+# 
+#        
+#              Pass Pattern NO.        922   
+# 
+# 
+#        
+#              Pass Pattern NO.        923   
+# 
+# 
+#        
+#              Pass Pattern NO.        924   
+# 
+# 
+#        
+#              Pass Pattern NO.        925   
+# 
+# 
+#        
+#              Pass Pattern NO.        926   
+# 
+# 
+#        
+#              Pass Pattern NO.        927   
+# 
+# 
+#        
+#              Pass Pattern NO.        928   
+# 
+# 
+#        
+#              Pass Pattern NO.        929   
+# 
+# 
+#        
+#              Pass Pattern NO.        930   
+# 
+# 
+#        
+#              Pass Pattern NO.        931   
+# 
+# 
+#        
+#              Pass Pattern NO.        932   
+# 
+# 
+#        
+#              Pass Pattern NO.        933   
+# 
+# 
+#        
+#              Pass Pattern NO.        934   
+# 
+# 
+#        
+#              Pass Pattern NO.        935   
+# 
+# 
+#        
+#              Pass Pattern NO.        936   
+# 
+# 
+#        
+#              Pass Pattern NO.        937   
+# 
+# 
+#        
+#              Pass Pattern NO.        938   
+# 
+# 
+#        
+#              Pass Pattern NO.        939   
+# 
+# 
+#        
+#              Pass Pattern NO.        940   
+# 
+# 
+#        
+#              Pass Pattern NO.        941   
+# 
+# 
+#        
+#              Pass Pattern NO.        942   
+# 
+# 
+#        
+#              Pass Pattern NO.        943   
+# 
+# 
+#        
+#              Pass Pattern NO.        944   
+# 
+# 
+#        
+#              Pass Pattern NO.        945   
+# 
+# 
+#        
+#              Pass Pattern NO.        946   
+# 
+# 
+#        
+#              Pass Pattern NO.        947   
+# 
+# 
+#        
+#              Pass Pattern NO.        948   
+# 
+# 
+#        
+#              Pass Pattern NO.        949   
+# 
+# 
+#        
+#              Pass Pattern NO.        950   
+# 
+# 
+#        
+#              Pass Pattern NO.        951   
+# 
+# 
+#        
+#              Pass Pattern NO.        952   
+# 
+# 
+#        
+#              Pass Pattern NO.        953   
+# 
+# 
+#        
+#              Pass Pattern NO.        954   
+# 
+# 
+#        
+#              Pass Pattern NO.        955   
+# 
+# 
+#        
+#              Pass Pattern NO.        956   
+# 
+# 
+#        
+#              Pass Pattern NO.        957   
+# 
+# 
+#        
+#              Pass Pattern NO.        958   
+# 
+# 
+#        
+#              Pass Pattern NO.        959   
+# 
+# 
+#        
+#              Pass Pattern NO.        960   
+# 
+# 
+#        
+#              Pass Pattern NO.        961   
+# 
+# 
+#        
+#              Pass Pattern NO.        962   
+# 
+# 
+#        
+#              Pass Pattern NO.        963   
+# 
+# 
+#        
+#              Pass Pattern NO.        964   
+# 
+# 
+#        
+#              Pass Pattern NO.        965   
+# 
+# 
+#        
+#              Pass Pattern NO.        966   
+# 
+# 
+#        
+#              Pass Pattern NO.        967   
+# 
+# 
+#        
+#              Pass Pattern NO.        968   
+# 
+# 
+#        
+#              Pass Pattern NO.        969   
+# 
+# 
+#        
+#              Pass Pattern NO.        970   
+# 
+# 
+#        
+#              Pass Pattern NO.        971   
+# 
+# 
+#        
+#              Pass Pattern NO.        972   
+# 
+# 
+#        
+#              Pass Pattern NO.        973   
+# 
+# 
+#        
+#              Pass Pattern NO.        974   
+# 
+# 
+#        
+#              Pass Pattern NO.        975   
+# 
+# 
+#        
+#              Pass Pattern NO.        976   
+# 
+# 
+#        
+#              Pass Pattern NO.        977   
+# 
+# 
+#        
+#              Pass Pattern NO.        978   
+# 
+# 
+#        
+#              Pass Pattern NO.        979   
+# 
+# 
+#        
+#              Pass Pattern NO.        980   
+# 
+# 
+#        
+#              Pass Pattern NO.        981   
+# 
+# 
+#        
+#              Pass Pattern NO.        982   
+# 
+# 
+#        
+#              Pass Pattern NO.        983   
+# 
+# 
+#        
+#              Pass Pattern NO.        984   
+# 
+# 
+#        
+#              Pass Pattern NO.        985   
+# 
+# 
+#        
+#              Pass Pattern NO.        986   
+# 
+# 
+#        
+#              Pass Pattern NO.        987   
+# 
+# 
+#        
+#              Pass Pattern NO.        988   
+# 
+# 
+#        
+#              Pass Pattern NO.        989   
+# 
+# 
+#        
+#              Pass Pattern NO.        990   
+# 
+# 
+#        
+#              Pass Pattern NO.        991   
+# 
+# 
+#        
+#              Pass Pattern NO.        992   
+# 
+# 
+#        
+#              Pass Pattern NO.        993   
+# 
+# 
+#        
+#              Pass Pattern NO.        994   
+# 
+# 
+#        
+#              Pass Pattern NO.        995   
+# 
+# 
+#        
+#              Pass Pattern NO.        996   
+# 
+# 
+#        
+#              Pass Pattern NO.        997   
+# 
+# 
+#        
+#              Pass Pattern NO.        998   
+# 
+# 
+#        
+#              Pass Pattern NO.        999   
+# 
+# 
+#        
+# 
+# 
+# 
+# 
+#         ---------------------------- 
+#         --                        -- 
+#         --  Congratulations ~~    -- 
+#         --                        -- 
+#         --     LAB1 PASS !        -- 
+#         --                        -- 
+#         ---------------------------- 
+# 
+# 
+# Break in Module PATTERN at C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv line 60
+# Simulation Breakpoint: Break in Module PATTERN at C:/Users/choug/VLSI_Projects/Lab1Test/PATTERN.sv line 60
+# MACRO ./Lab1Test_run_msim_gate_systemverilog.do PAUSED at line 18

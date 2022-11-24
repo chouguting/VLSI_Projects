@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="AFIFO_TEST">
+		<CBX_INST_ENTRY INSTANCE_NAME="|AFIFO|fifomem:fifomem_m0|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_m0d1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

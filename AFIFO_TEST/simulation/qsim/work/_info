@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\choug\VLSI_Projects\AFIFO_TEST\simulation\qsim
+vAFIFO
+Z1 !s100 YUOUjcS97DHYlBB[;2fzg0
+Z2 IEeUH@3aSCQjSV>BK>Hczg3
+Z3 Vk5Tj9GN`eF]_^EoMBUS?O1
+Z4 dC:\Users\choug\VLSI_Projects\AFIFO_TEST\simulation\qsim
+Z5 w1669219687
+Z6 8AFIFO_TEST.vo
+Z7 FAFIFO_TEST.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|AFIFO_TEST.vo|
+Z10 o-work work -O0
+Z11 n@a@f@i@f@o
+!i10b 1
+!s85 0
+Z12 !s108 1669219689.058000
+Z13 !s107 AFIFO_TEST.vo|
+!s101 -O0
+vAFIFO_vlg_check_tst
+!i10b 1
+!s100 dGBkfFfSGCO07_4=_@gbe3
+I>2YneHNNl>he80K1oOe3;3
+Z14 V85]H0P:mg^K0Kh4=1;8`92
+R4
+Z15 w1669219685
+Z16 8Waveform.vwf.vt
+Z17 FWaveform.vwf.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z18 !s108 1669219689.150000
+Z19 !s107 Waveform.vwf.vt|
+Z20 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z21 n@a@f@i@f@o_vlg_check_tst
+vAFIFO_vlg_sample_tst
+!i10b 1
+!s100 HPg^GzjFN8cS5RnbQIhPc0
+IfjhJT6JLED6Xjlj8:kH8c3
+Z22 ViCi:hQ6?7>5?e[2Y[RH@J3
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z23 n@a@f@i@f@o_vlg_sample_tst
+vAFIFO_vlg_vec_tst
+!i10b 1
+!s100 EfWMZiJ^QUA2<0o=zVczT1
+Idd6fS=iKa2:Fn<GG>[<6z3
+Z24 VL64?ao?8Ugk?7`o<:8K8F0
+R4
+R15
+R16
+R17
+Z25 L0 341
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z26 n@a@f@i@f@o_vlg_vec_tst

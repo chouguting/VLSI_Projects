@@ -1,0 +1,23 @@
+module LAB1(
+	input [3:0]in_0,
+	input [3:0]in_1,
+	input [3:0]in_2,
+	input [3:0]in_3,
+	input [3:0]in_4,
+	input [3:0]in_5,
+	input [2:0] in_rule,
+	output logic signed [9:0] out
+);
+
+
+/////////////////
+//             //
+//  your code  //
+//             //
+/////////////////
+	
+
+endmodule
+
+
+

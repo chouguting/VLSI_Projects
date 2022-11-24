@@ -1,0 +1,11 @@
+module comparator_4_bits (
+    input [3:0] a, 
+    input [3:0] b, 
+    output [3:0] bigger, 
+    output [3:0] smaller
+    );
+
+    assign bigger = (a > b) ? a : b;
+    assign smaller = (a < b) ? a : b;
+	 
+endmodule
